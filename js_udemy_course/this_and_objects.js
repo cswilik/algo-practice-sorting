@@ -1,6 +1,6 @@
 function a() {
-    console.log(this) //this will still point to the global exexcution context
-    this.newVariable = "hello"
+    console.log(this) //this will still point to the global execution context
+    this.newVariable = "hello" // attached to the global object!!!
 }
 
 a()
@@ -11,7 +11,7 @@ var b = function() {
 
 console.log(newVariable)
 
-
+b()
 
 var c = {
     name: "c object",
