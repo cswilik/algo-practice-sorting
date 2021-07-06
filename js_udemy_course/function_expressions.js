@@ -28,3 +28,11 @@ log(function() {
     console.log("hi")
 })
 // first class function! it can be passed, etc.
+
+let greeting = function(name) {
+    return 'hi ' + name;
+}('Chelsey');
+// We can also immediately invoke the function object immediately after defining it!
+// IIFE!
+// The invoked function is whats passed to greeting variable.
+console.log(greeting)
