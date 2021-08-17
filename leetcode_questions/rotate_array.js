@@ -1,5 +1,5 @@
-// Rotate array - given array, rotate it to the right 'k' amount of steps, where k is non-negative.
-// 
+// Rotate array - given array, rotate it to the right 'k' amount of steps
+// k is non-negative.
 
 
 // My solution. So in the actual directions, it does not say you *can't* create a new array...
